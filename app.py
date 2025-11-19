@@ -120,7 +120,7 @@ opcoes_0_a_10 = [str(i) for i in range(11)]
 with st.form("feedback_form", clear_on_submit=True):
 
     p1 = st.radio(
-        "1️ - De 0 a 10 como você classificaria o evento de maneira geral?",
+        "1 - De 0 a 10 como você classificaria o evento de maneira geral?",
         opcoes_0_a_10,
         horizontal=True,
         index=None
